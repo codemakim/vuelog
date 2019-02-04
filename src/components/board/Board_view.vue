@@ -18,10 +18,17 @@
                     본문입니다. 본문 본문 이라고 합 니 다.
                 </span>
             </section>
-            <section class="post-tag">#본문</section>
+            <section class="post-tag">
+                <span>#본문</span>
+            </section>
         </article>
         <footer class="w3-container">
             <hr class="line-btw-content-comment">
+            <div class="w3-container post-comment">
+                <span>댓글입니다. 이렇게 달아봅시다.</span>
+                <div class="post-comment-btn">답글 수정 삭제</div>
+            </div>
+
             <div class="w3-container w3-margin">
                 <textarea class="w3-input w3-border comment-textarea" placeholder="내용을 입력하세요."></textarea>
                 <button type="button" class="w3-button w3-right w3-white w3-border w3-block post-comment-submit">등록</button>
@@ -50,8 +57,17 @@ export default {
     section.post-tag {
         padding: 30px 20px 0 20px;
     }
-    line-btw-content-comment {
+    section.post-tag span:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .line-btw-content-comment {
         border: 0.5px dashed silver;
+    }
+    .post-comment {
+        margin: 30px 20px 30px 20px;
+        padding: 15px;
+        border-bottom: 0.5px solid silver;
     }
     .post-comment-submit {
         margin-top: 10px;
