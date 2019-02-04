@@ -14,13 +14,13 @@
             <div class="w3-col l3">
                 <div class="w3-container w3-margin">
                     <div class="w3-col l12 m4 s4">
-                        <i class="far fa-comment"></i> 30
-                    </div>
-                    <div class="w3-col l12 m4 s4">
                         <i class="far fa-eye"></i> 30
                     </div>
                     <div class="w3-col l12 m4 s4">
                         <i class="far fa-heart"></i> 30
+                    </div>
+                    <div class="w3-col l12 m4 s4">
+                        <i class="far fa-comment"></i> 30
                     </div>
                 </div>
             </div>
@@ -35,8 +35,13 @@ export default {
 </script>
 
 <style scoped>
-    .board-item:hover {
+    div.board-item:hover {
         background-color: #F6F6F6;
         cursor: pointer;
     }
+/*
+    div.board-item.current-view {
+         목록에 현재글을 표시하기 위한 스타일
+    }
+ */
 </style>

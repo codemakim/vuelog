@@ -1,19 +1,20 @@
 <template>
-    <div id="app">
-        <div class="w3-container">
-            <h2>게시판 제목</h2>
-            <List></List>
-            <pagination></pagination>
-        </div>
+    <div class="w3-container">
+        <h2>게시판 제목</h2>
+        <BoardView></BoardView>
+        <List></List>
+        <pagination></pagination>
     </div>
 </template>
 
 <script>
 import List from './Board_list.vue'
+import BoardView from './Board_view.vue'
 import Pagination from './Board_pagination.vue'
 export default {
     components: {
         List,
+        BoardView,
         Pagination
     }
 }
