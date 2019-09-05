@@ -22,6 +22,7 @@
                 <span>#본문</span>
             </section>
         </article>
+        <!-- 댓글 부분 컴포넌트로 분리해야합니다. -->
         <footer class="w3-container">
             <hr class="line-btw-content-comment">
             <div class="w3-container post-comment">

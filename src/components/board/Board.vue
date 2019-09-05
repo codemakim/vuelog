@@ -2,6 +2,7 @@
     <div class="w3-container">
         <h2>게시판 제목</h2>
         <BoardView></BoardView>
+        <boardWrite></boardWrite>
         <List></List>
         <pagination></pagination>
     </div>

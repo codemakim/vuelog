@@ -1,5 +1,5 @@
 <template>
-    <div class="w3-card">
+    <div class="w3-card board-view">
         하하
     </div>
 </template>
@@ -10,6 +10,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    div.board-view {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 </style>
