@@ -9,7 +9,16 @@
                         yyyy.MM.dd
                     </span>
                 </header>
-                <div class="w3-container">본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본 50자 제한...</div>
+                <div class="w3-container">
+                    <section class="post-content">
+                        본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본문본 50자 제한...
+                    </section>
+                    <section class="post-tag">
+                        <span>
+                            #글목록
+                        </span>
+                    </section>
+                </div>
             </div>
             <div class="w3-col l3">
                 <div class="w3-container w3-margin">

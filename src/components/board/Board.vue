@@ -10,19 +10,25 @@
 <script>
 import List from './Board_list.vue'
 import BoardView from './Board_view.vue'
+import BoardWrite from './Board_write.vue'
 import Pagination from './Board_pagination.vue'
 export default {
     components: {
         List,
         BoardView,
+        BoardWrite,
         Pagination
     }
 }
 </script>
 
-<style scoped>
+<style>
     .board-item:hover {
         background-color: #F6F6F6;
         cursor: pointer;
+    }
+    section.post-tag span:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
 </style>

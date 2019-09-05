@@ -54,9 +54,6 @@ export default {
     section.post-content {
         padding: 30px 20px 30px 20px;
     }
-    section.post-tag {
-        padding: 30px 20px 0 20px;
-    }
     section.post-tag span:hover {
         cursor: pointer;
         text-decoration: underline;
