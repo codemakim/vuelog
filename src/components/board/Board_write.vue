@@ -1,7 +1,7 @@
 <template>
   <div class="w3-card board-write w3-container">
-      <input class="w3-input" type="text" name="title" id="title" placeholder="제목을 입력하세요" />
-      <Editor />
+    <input class="w3-input" type="text" name="title" id="title" placeholder="제목을 입력하세요" />
+    <Editor />
   </div>
 </template>
 
@@ -23,5 +23,8 @@ div.board-write {
 div.board-write input[name="title"] {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+pre code span.find {
+  background: orangered;
 }
 </style>

@@ -185,13 +185,13 @@ export default {
         content: null,
         autoFocus: true,
         comments: {},
-        onUpdate: ({getJSON, getHTML}) => {
+        onUpdate: ({ getJSON, getHTML }) => {
           this.json = getJSON();
           this.html = getHTML();
-        },
+        }
       }),
-      json: 'json으로 변환한 결과',
-      html: 'html로 변환한 결과',
+      json: "json으로 변환한 결과",
+      html: "html로 변환한 결과"
     };
   },
   beforeDestroy() {
@@ -201,19 +201,4 @@ export default {
 </script>
 
 <style>
-p span.find {
-  background: yellow;
-}
-.board-write pre {
-  padding: 20px 20px 20px 20px;
-  margin-left: 20px;
-  margin-right: 30px;
-  background: hotpink;
-  border-radius: 10px;
-  color: white;
-}
-
-.board-write pre code .find {
-  background: orangered;
-}
 </style>
