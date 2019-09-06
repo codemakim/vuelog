@@ -47,12 +47,13 @@ export default {};
 div.board-view {
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 30px;
 }
 span.post-count {
   padding-right: 30px;
 }
 section.post-content {
-  padding: 30px 20px 30px 20px;
+  padding: 30px 0 30px 0;
 }
 .line-btw-content-comment {
   border: 0.5px dashed silver;
