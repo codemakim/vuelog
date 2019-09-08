@@ -1,6 +1,7 @@
 <template>
   <div class="w3-container">
     <h2>게시판 제목</h2>
+
     <BoardView></BoardView>
     <boardWrite></boardWrite>
     <List></List>
@@ -10,14 +11,14 @@
 
 <script>
 import List from "./Board_list.vue";
-import BoardView from "./Board_view.vue";
-import BoardWrite from "./Board_write.vue";
+import View from "./Board_view.vue";
+import Write from "./Board_write.vue";
 import Pagination from "./Board_pagination.vue";
 export default {
   components: {
     List,
-    BoardView,
-    BoardWrite,
+    View,
+    Write,
     Pagination
   }
 };
