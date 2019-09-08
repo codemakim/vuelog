@@ -1,9 +1,7 @@
 <template>
   <nav class="w3-sidebar w3-bar-block w3-collapse w3-card">
     <button v-on:click="closeSidebar()" class="w3-hide-large w3-button w3-block">Close(X)</button>
-    <div
-      class="w3-hide-medium w3-hide-small w3-center w3-xlarge w3-logofont w3-padding-16"
-    >&lt;VueLog/&gt;</div>
+    <router-link to="/" tag="div" class="w3-hide-medium w3-hide-small w3-center w3-xlarge w3-logofont w3-padding-16 clickable-title">&lt;VueLog/&gt;</router-link>
     <ul>
       <li v-for="n in 10" v-bind:key="n">메뉴{{n}}</li>
     </ul>
@@ -26,5 +24,8 @@ nav.w3-sidebar {
 }
 .w3-logofont {
   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.clickable-title:hover {
+  cursor: pointer;
 }
 </style>

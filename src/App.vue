@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <SideBar></SideBar>
-    <Header></Header>
-    <Main></Main>
+    <router-view name="sideBar"></router-view>
+    <router-view name="header"></router-view>
+    <router-view name="default"></router-view>
   </div>
 </template>
 
 <script>
-import Header from './components/layout/Header.vue'
-import SideBar from './components/layout/SideBar.vue'
-import Main from './components/layout/Main.vue'
+// import Header from './components/layout/Header.vue'
+// import SideBar from './components/layout/SideBar.vue'
+// import Main from './components/layout/Main.vue'
 
 export default {
-  name: 'app',
-  components: {
-    Header,
-    SideBar,
-    Main
-  }
+  // name: 'app',
+  // components: {
+  //   Header,
+  //   SideBar,
+  //   Main
+  // }
 }
 </script>
 
